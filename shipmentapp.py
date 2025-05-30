@@ -11,7 +11,7 @@ from matplotlib.figure import Figure
 st.title("Shipment Data Visualization")
 
 # Load data
-df = pd.read_csv("Train.csv")
+df = pd.read_csv("train.csv")
 
 st.subheader("Raw Data")
 st.dataframe(df)
